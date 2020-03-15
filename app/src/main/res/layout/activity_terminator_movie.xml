@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E1010D4B"
+    tools:context=".Selection">
+
+    <ImageView
+        android:id="@+id/terminatorImg"
+        android:layout_width="199dp"
+        android:layout_height="256dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/terminator" />
+
+    <TextView
+        android:id="@+id/terminatorTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/terminatorImg"
+        android:layout_centerHorizontal="true"
+        android:text="TERMINATOR: DARK FATE"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/tillana" />
+
+    <TextView
+        android:id="@+id/terminatorstar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/terminatorTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:fontFamily="@font/tillana"
+        android:text="Starring: Arnold Schwarzenegger "
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/terReserve"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/terminatorstar"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="RESERVE TICKETS" />
+
+    <Button
+        android:id="@+id/terCancel"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/terminatorstar"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:text="CANCEL" />
+
+</RelativeLayout>

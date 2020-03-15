@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mainbg"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/regText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="90dp"
+        android:text="REGISTER"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:fontFamily="@font/tillana" />
+
+    <EditText
+        android:id="@+id/EmailEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:background="#81FFFFFF"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1" />
+
+    <TextView
+        android:id="@+id/emailError"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F00707"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/PasswEt"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#81FFFFFF"
+        android:hint="Enter Password"
+        android:maxLines="1"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/blank2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/PasswEtConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#81FFFFFF"
+        android:hint="Confirm Password"
+        android:maxLines="1"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/pwdMatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#F00707"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/regBtn"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register" />
+
+        <Button
+            android:id="@+id/cancelBtn"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>

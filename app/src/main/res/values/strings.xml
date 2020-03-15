@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GoMovie</string>
+    <string name="get_movie_tickets_fast">GET MOVIE TICKETS FAST!</string>
+    <string name="movie_description">Movie Description</string>
+    <string name="movie_name">Movie Name</string>
+    <string name="select_time">SELECT TIME</string>
+</resources>
